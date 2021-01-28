@@ -105,7 +105,7 @@ if __name__ == '__main__':
          # (3rd step) Calculate the pivot row
         pivot_row = get_pivot_row(matrix)
         print("Pivot row = ", pivot_row)
-     #--------------------------------------------------------------------------------------------------------------   
+#--------------------------------------------------------------------------------------------------------------   
         # (1st step) Calcualte new pivot row
         basement_row = calculate_new_pivot_row(matrix, pivot_row, pivot_col)
         print("New Pivot Row = ", basement_row)
